@@ -1,13 +1,12 @@
-# XRCooking
+# XR Cooking Simulator (Unity)
 
-Simulador de cocina en **Realidad Extendida (XR / VR)** desarrollado en **Unity** (URP) utilizando **Oculus / Meta Interaction SDK** y **XR Interaction Toolkit (XRI)**.
+An interactive **Extended Reality (XR / VR)** cooking simulator built in **Unity** using **Universal Render Pipeline (URP)**, **Oculus / Meta Interaction SDK**, and **XR Interaction Toolkit (XRI)**.
 
-## Características principales
-- Entorno interactivo de cocina 3D (Package04_Free_Kitchen, Comida).
-- Interacción física y manipulación de objetos en VR (InteractionSDK, XRI, Oculus).
-- Efectos visuales y shaders personalizados (ej. Ketchup_Decal_Graph, msVFX_Free Smoke Effects Pack).
+## Key Features
+- **VR Physics & Interaction:** Integrates Meta/Oculus Interaction SDK (`InteractionSDK`, `Oculus`) and `XRI` for natural grabbing, releasing, and physical manipulation of kitchen utensils and ingredients (`FoodMaterial.physicMaterial`).
+- **3D Environment & Custom Shaders:** Full 3D kitchen scene (`Package04_Free_Kitchen`, `Comida`) with custom Shader Graph effects (`Ketchup_Decal_Graph.shadergraph`) and particle systems (`msVFX_Free Smoke Effects Pack`).
 
-## Estructura del proyecto
-- Assets/: Escenas (Scenes/), scripts (Scripts/), prefabs, materiales, shaders y recursos de XR.
-- Packages/: Dependencias de Unity (manifest.json).
-- ProjectSettings/: Configuración del proyecto Unity.
+## Project Structure
+- `Assets/`: Scenes (`Scenes/`), C# scripts (`Scripts/`), prefabs, materials, shaders, and XR assets.
+- `Packages/`: Unity package dependencies (`manifest.json`).
+- `ProjectSettings/`: Unity project configuration.
